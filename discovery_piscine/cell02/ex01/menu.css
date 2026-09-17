@@ -1,0 +1,14 @@
+.content {
+    display: none;
+    position: absolute;
+    background-color: #eee;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.content a {
+    display: block;
+    padding: 8px;
+}

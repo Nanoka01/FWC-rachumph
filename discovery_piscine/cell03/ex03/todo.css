@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#new_btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#ft_list {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#ft_list div {
+    background-color: #f4f4f4;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    word-break: break-all;
+}
+

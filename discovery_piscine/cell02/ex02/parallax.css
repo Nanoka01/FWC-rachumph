@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url('https://static01.nyt.com/images/2020/01/28/multimedia/28xp-memekid3/28cp-memekid3-superJumbo.jpg?quality=75&auto=webp');
+}
+
+.black {
+    background-color: black;
+}
+
+.img2 {
+    background-image: url('https://hocco.co/wp-content/uploads/2023/09/Meme-01.jpeg.webp');
+}

@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.card {
+        width: 250px;
+        background: white;
+        margin: auto;
+        box-shadow: 0 4px 10px #bbb;
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    width: 16px;
+    margin: 0 2px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+}
