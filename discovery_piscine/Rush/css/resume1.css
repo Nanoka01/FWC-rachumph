@@ -30,7 +30,6 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
     min-height: 100vh;
     background-color: white;
     padding: 0px 20%;
@@ -352,10 +351,73 @@ hr {
         text-align: center;
     }
 
+     .contract h1 {
+        text-align: center;
+    }
 
     .exptopic {
         text-align: center;
     }
 
+
+}
+
+@media screen and (max-width: 300px) {
+    .logo h1{
+        font-size: 1vh;
+    }
+
+    .logotext {
+        font-size: 1vh;
+        gap: 10px;
+    }
+    .logotext a{
+        font-size: 1vh;
+    }
+
+    .logotext a button{
+        font-size: 1vh;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profilename {
+        gap: 100px;
+    }
+
+    .profile .name {
+        font-size: 3vh;
+    }
+
+    main {
+        padding: 10px 15%;
+    }
+
+    .skilltopic {
+        text-align: center;
+    }
+
+    .contract h1 {
+        text-align: center;
+        font-size: 2vh;
+    }
+
+
+    .exptopic {
+        text-align: center;
+    }
+
+    .contract {
+    
+        padding: 5px 0%;
+    }
 
 }
